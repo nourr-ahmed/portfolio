@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kode+Mono:wght@400..700&display=swap');
+
+html {
+  scroll-padding-top: 85px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font-family: 'Arimo', sans-serif;
+    background-color: #071A2F;
+    color: #E0E0E0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+h2{
+    text-shadow: 2px 2px 8px rgba(251, 193, 46, 0.7)
+}
+
+.navbar{
+    background-color: #071A2F;
+}
+.navbar-link:hover, .nav-link.active{
+    text-shadow: 2px 2px 8px rgba(251, 193, 46, 0.7);
+}
+.nav-toggler{
+    color: white;;
+}
+.nav-toggler:hover{
+    text-shadow: 2px 2px 8px rgba(251, 193, 46, 0.7);
+}
+.main-btn{
+    background-color: #FBC12E;
+    color: #071A2F;
+    font-weight: 600;
+}
+.main-btn:hover{
+    background-color: #FBC12E;
+    color: #071A2F;
+    box-shadow: 2px 2px 8px rgba(251, 193, 46, 0.7);
+}
+.secondary-button{
+    border: 1px solid #FBC12E;
+    color: #FBC12E;
+}
+.profile-img{
+    box-shadow: 0px 0px 8px rgba(251, 193, 46, 0.7);
+}
+.projects .card {
+    border: none;
+    color: #071A2F;
+    border-radius: 15px;
+    /* box-shadow: 0px 0px 8px rgba(251, 193, 46, 0.7); */
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .projects .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 8px rgba(251, 193, 46, 0.7);
+  }
+#contact .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  #contact .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Social Links */
+  .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    font-size: 1.5rem;
+    color: #333;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  .social-link:hover {
+    background: #FBC12E;
+    color: #fff;
+    transform: translateY(-5px);
+  }
