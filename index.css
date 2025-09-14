@@ -78,7 +78,7 @@ h2{
   }
 
   /* Social Links */
-  .social-link {
+  .social-link, .social-link:visited {
     display: flex;
     align-items: center;
     justify-content: center;
